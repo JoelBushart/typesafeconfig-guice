@@ -18,12 +18,12 @@ public class ReflectionsReflector implements Reflector {
 
     @Override
     public Set<Constructor> getConstructorsWithAnyParamAnnotated(Class clazz) {
-        return delegate.getConstructorsWithAnyParamAnnotated(clazz);
+        return delegate.getConstructorsWithParameter(clazz);
     }
 
     @Override
     public Set<Method> getMethodsWithAnyParamAnnotated(Class clazz) {
-        return delegate.getMethodsWithAnyParamAnnotated(clazz);
+        return delegate.getMethodsWithParameter(clazz);
     }
 
     @Override
