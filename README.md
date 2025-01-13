@@ -47,6 +47,9 @@ Jason Then
 
 Any comments and feedback appreciated!
 
+Forked and updated by:
+Joel Bushart
+
 LICENSE
 -----------
 Copyright 2018 Jason Then
